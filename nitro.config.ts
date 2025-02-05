@@ -20,6 +20,6 @@ export default defineNitroConfig({
     }
   },
   runtimeConfig: {
-    debug: process.env.NODE_ENV !== 'production'
+    debug: Deno.env.get("ENV") !== 'production'
   }
 });
