@@ -2,7 +2,7 @@
 export default defineNitroConfig({
   srcDir: "server",
   compatibilityDate: "2025-02-05",
-
+  preset:"deno-deploy",
   routeRules: {
     '/api/**': {
       cors: true,
