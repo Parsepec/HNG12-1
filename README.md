@@ -50,16 +50,3 @@ Compatible with most serverless and edge platforms.
 - Numbers API
 ```
 
-The compiled version includes:
-
-1. All utility functions for number analysis
-2. Cached number fact and property retrieval
-3. Main API endpoint with error handling
-4. Development and production configurations
-5. README with usage instructions
-
-Key improvements:
-- Cross-platform compatibility
-- Efficient caching
-- Flexible configuration
-- Comprehensive number analysis
