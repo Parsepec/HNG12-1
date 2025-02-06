@@ -42,7 +42,7 @@ export default defineCachedEventHandler(async (event) => {
         timestamp: new Date().toISOString(),
         ttl: extended ? 3600 : 86400
       }
-      useRuntimeConfig(event).debug ? response.metadata = metadata : null
+      //useRuntimeConfig(event).debug ? response.metadata = metadata : null
       return response;
     } catch (error) {
       console.error('Error processing number:', error);
